@@ -61,6 +61,9 @@ extensions = [
     "releases",
 ]
 
+autoapi_type = 'python'
+autoapi_dirs = ['../../src']
+
 autodoc_mock_imports = [
 ]
 
