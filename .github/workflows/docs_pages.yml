@@ -41,6 +41,7 @@ jobs:
           touch .nojekyll
           git config --global user.email "karan.bhatia@gmail.com"
           git config --global user.name "Karan Bhatia"
+          git config --global --add safe.directory /github/workspace/docs/build/html
           git add -A
           git commit -m 'deploy'
 
