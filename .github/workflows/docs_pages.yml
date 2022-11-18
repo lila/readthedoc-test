@@ -39,6 +39,8 @@ jobs:
           cd docs/build/html/
           git init
           touch .nojekyll
+          git config --global user.email "karan.bhatia@gmail.com"
+          git config --global user.name "Karan Bhatia"
           git add -A
           git commit -m 'deploy'
 
